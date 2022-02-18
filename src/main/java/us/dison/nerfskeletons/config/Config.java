@@ -24,8 +24,6 @@ public class Config {
             }
         }
 
-        System.out.println(DIVERGENCE_FACTOR);
-
         if (DIVERGENCE_FACTOR == -1.0f) {
             try {
                 String fileData = FileUtils.readFileToString(configFile, StandardCharsets.UTF_8);

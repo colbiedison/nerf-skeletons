@@ -8,6 +8,5 @@ public class NerfSkeletons implements ModInitializer {
     @Override
     public void onInitialize() {
         Config.init();
-        System.out.println(Config.getDivergenceFactor());
     }
 }
