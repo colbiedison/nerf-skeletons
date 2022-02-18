@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "nerf-skeletons",
+  "version": "${version}",
+  "name": "Less Accurate Skeletons",
+  "description": "Make skeletons less accurate",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/nerf-skeletons/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "us.dison.nerfskeletons.client.NerfSkeletonsClient"
+    ],
+    "main": [
+      "us.dison.nerfskeletons.NerfSkeletons"
+    ]
+  },
+  "mixins": [
+    "nerf-skeletons.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.2",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "us.dison.nerfskeletons.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractSkeletonEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
